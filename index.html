@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button class="B drum" onclick="makeSound('crash.mp3')"><img src="images\crash.png">B</button>
+    <button class="I drum" onclick="makeSound('kick-bass.mp3')"><img src="images\kick.png">I</button>
+    <button class="S drum" onclick="makeSound('snare.mp3')"><img src="images\snare.png">S</button>
+    <button class="L drum" onclick="makeSound('tom-1.mp3')"><img src="images\tom1.png">L</button>
+    <button class="E drum" onclick="makeSound('tom-2.mp3')"><img src="images\tom2.png">E</button>
+    <button class="R drum" onclick="makeSound('tom-3.mp3')"><img src="images\tom3.png">R</button>
+    <button class="Y drum" onclick="makeSound('tom-4.mp3')"><img src="images\tom4.png">Y</button>
+  </div>
+
+  <audio id="audio"></audio>
+  <footer>
+    Gangs ❤️f Bislery.
+  </footer>
+  <script src="index.js" defer></script>
+</body>
+
+</html>
